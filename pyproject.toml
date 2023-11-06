@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "mullawatch"
+version = "0.1.0"
+description = "MullaWatch CLI application"
+authors = ["MikeBrian <mikebrian.munene@student.moringaschool.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
